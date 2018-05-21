@@ -9,6 +9,8 @@ img
 	height: auto;
 	width: 100%;
 }
+nav
+{position: fixed;}
 .bg
 		{
 			background-image:url('../img/bg/1.jpg');
@@ -19,7 +21,15 @@ img
 			background-repeat: no-repeat;	
 		}
 
-
+.bg2
+		{
+			background-image:url('../img/bg/2.jpg');
+			height:100%;
+			margin: 0;
+			background-position:center;
+			background-size: cover;
+			background-repeat: no-repeat;	
+		}
 section
 		{
 			min-height: 100%;
@@ -55,7 +65,7 @@ h1 + p
 .form
 
 {
-			background-image:url('../img/bg/1.jpg');
+			background-image:url('../img/bg/3.jpg');
 			height:100%;
 			margin: 0;
 			background-position:center;
@@ -73,7 +83,7 @@ form label
 			font-style: italic;
 			font-family: "Times New Roman"
 		}
-		
+
 /* button*/
 
 
