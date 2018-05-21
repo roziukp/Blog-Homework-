@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <title>Blog</title>
+
+     <script type="text/javascript">
+    $(".mail-btn").on("click touchstart", function () 
+    {
+    $(this).addClass("fly");
+    that = this
+    setTimeout(function() {
+        $(that).removeClass("fly");
+    }, 5400)
+    });
+    </script>
+
   </head>
   <body>
 
@@ -110,6 +122,32 @@
       </p>
     </section>
      </div>
+
+  <section class="form" style="color: #000; background-color: #00b0ff;">
+        <div align="center">
+        <h1>Обратная связь</h1>
+          <form>
+                      <label for="name">Имя:</label>
+                      <br>
+                      <input type="text"  name="name" placeholder="Введите ваше имя" required />
+                <br>
+                      <label for="email">Email:</label>
+                       <br>
+                      <input type="email" name="email" placeholder="Введите электронный адрес" required />
+                <br>
+                      <label for="tel">Телефон:</label>
+                       <br>
+                      <input type="tel" name="tel" placeholder="Введите номер телефона" required />
+                <br>
+                      <label for="message">Текст сообщения:</label>
+                       <br>
+                      <textarea name="message" cols="56" rows="6" placeholder="Your text" required style="border-style: ridge;" ></textarea>
+                <br><br>
+                      <button class="mail-btn" type="submit">Отправить</button>
+              <br>
+          </form> 
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
