@@ -11,22 +11,12 @@ img
 }
 .bg
 		{
-			background-image:url('../img/bg/1.jpg');
-			height:100%;
-			margin: 0;
-			background-position:center;
-			background-size: cover;
-			background-repeat: no-repeat;	
+			background-color: #3CB371;
 		}
 
 .bg2
 		{
-			background-image:url('../img/bg/2.jpg');
-			height:100%;
-			margin: 0;
-			background-position:center;
-			background-size: cover;
-			background-repeat: no-repeat;	
+			background-color: #3CB371;
 		}
 section
 		{
@@ -63,16 +53,11 @@ h1 + p
 .form
 
 {
-			background-image:url('../img/bg/3.jpg');
-			height:100%;
-			margin: 0;
-			background-position:center;
-			background-size: cover;
-			background-repeat: no-repeat;	
+			background-color: #3CB371;
 		}
 form input	
 		{
-			width: 400px;
+			width: 65%;
 			height: 40px;
 		}
 form label
